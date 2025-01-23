@@ -1,0 +1,360 @@
+body {
+    background-color: #000000;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000; 
+}
+
+.head-title {
+    color: white;
+    font-size: 30px;
+    font-family: 'Georgia', serif;
+    
+}
+
+.head-title:hover{
+    color: white;
+    text-shadow: 2px 2px 4px #202020;
+}
+
+.name{
+    font-family: "Lexend Giga", serif;
+    font-size: 60px;
+    color: #c7522a;
+}
+
+.current-work{
+    color: #fbf2c4;
+    font-family: "Rubik", serif;
+    font-size: 18px;
+}
+
+.head-container{
+    margin-top: 110px;
+    margin-bottom: 80px;
+}
+
+.dasvin-pic{
+    border-radius: 10%;
+    height: 380px;
+    width: 300px;
+}
+
+.role{
+    font-family: "Jersey 15", serif;
+    color: #e5c185;
+    font-size: 43px;
+}
+
+#character {
+    height: 50px;
+    width: 50px;
+    border-radius: 10%;
+}
+
+.custom-hr{
+    border: 3px solid #f0ead2;
+    border-radius: 25px; 
+    width: 90%;
+    margin: 20px auto;
+    animation: colorChange 3s infinite;
+}
+
+@keyframes colorChange {
+    0% {
+        border-color: #b5ea8c;
+    }
+    25% {
+        border-color: #f1b321;
+    }
+    50% {
+        border-color: #8bc819;
+    }
+    75% {
+        border-color: #ff7c9f;
+    }
+    100% {
+        border-color: #ace7ff;
+    }
+}
+
+.about{
+    font-family: "Bebas Neue", serif;
+    color: #ff6600;
+}
+
+.about-content{
+    font-family: "Montserrat", serif;
+    color: #ffffff;
+}
+
+.about-container{
+    margin-bottom: 25px;
+}
+
+.experience{
+    font-family: "Bebas Neue", serif;
+    color: #ff6600;
+}
+
+.hcl-logo{
+    height: 120px;
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+}
+
+.designation{
+    font-family: "Montserrat", serif;
+    color: #ffffff;
+}
+
+.exp-container{
+    margin-bottom: 25px;
+}
+
+.project-header{
+    font-family: "Bebas Neue", serif;
+    color: #ff6600;
+}
+
+.card-col{
+    display: flex;
+    justify-content: center;
+}
+
+.cards{
+    width: 350px;
+}
+
+.logo{
+    height: 130px;
+    width: 250px;
+}
+
+.card2-content{
+    margin-bottom: 38px;
+}
+
+.card3-content{
+    margin-bottom: 58px;
+}
+
+.tech-skill-head{
+    font-family: "Bebas Neue", serif;
+    color: #ff6600;
+}
+
+.tech-container{
+    margin-bottom: 20px;
+}
+
+.skill{
+    font-family: "Montserrat", serif;
+    color: #ffffff; 
+}
+
+.lang{
+    font-family: "Bebas Neue", serif;
+    color: #ff6600;
+}
+
+.fram{
+    font-family: "Montserrat", serif;
+    color: #ffffff; 
+}
+
+.lang-container{
+    margin-bottom: 25px;
+}
+
+.tool-head{
+    font-family: "Bebas Neue", serif;
+    color: #ff6600;
+}
+
+.tool{
+    font-family: "Montserrat", serif;
+    color: #ffffff; 
+}
+
+.tool-container{
+    margin-bottom: 25px;
+}
+
+.role-head{
+    font-family: "Bebas Neue", serif;
+    color: #ff6600;
+}
+
+.dtl{
+    font-family: "Montserrat", serif;
+    color: #ffffff; 
+}
+
+.edu{
+    font-family: "Montserrat", serif;
+    color: #ffffff;  
+}
+
+.edu-name{
+    font-size: 20px;
+}
+
+.roleRes{
+    font-family: "Bebas Neue", serif;
+    color: #ff6600;
+}
+
+
+.ach{
+    font-family: "Bebas Neue", serif;
+    color: #ff6600;
+}
+.project-container{
+    margin-bottom: 25px;
+}
+
+.pro-row{
+    margin-bottom: 25px;
+}
+
+.role-container{
+    margin-top:30px;
+}
+
+.here {
+    color: #ff6347; /* Initial color */
+    transition: color 0.5s ease-in-out; /* Smooth transition */
+    animation: colorTransition 2s infinite; /* Infinite color transition animation */
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 45px;
+}
+
+@keyframes colorTransition {
+    0% {
+        color: #f1b321;
+    }
+    25%{
+        color: #76e8a7;
+    }
+    50% {
+        color: #8bc819;
+    }
+    75%{
+        color: #45ccf3;
+    }
+    100% {
+        color: #d10f0f;
+    }
+}
+
+.ach-dtl{
+    font-family: "Montserrat", serif;
+    color: #ffffff;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer .social-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer .social-links li {
+    display: inline;
+    margin: 0 10px;
+    font-size: 18px;
+}
+
+.footer .social-links a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer .social-links a:hover {
+    color: #ff6347; /* Highlight color on hover */
+}
+
+.pages {
+    font-family: "Bebas Neue", serif;
+    color: #ff6600;
+    margin-top: 30px;
+}
+
+.page-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.page-links li {
+    margin: 10px 0;
+    font-family: "Montserrat", serif;
+}
+
+.page-links a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.page-links a:hover {
+    color: #0056b3;
+}
+
+.cert-container{
+    margin-top: 30px;
+}
+
+.cert{
+    color: #ffffff;
+    font-family: "Montserrat", serif;
+}
+
+.certificate-img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.ach{
+    font-family: "Bebas Neue", serif;
+    color: #ff6600;
+    margin-top: 30px; 
+}
+.hobby-img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.hob{
+    color: #ffffff;
+    font-family: "Montserrat", serif;
+}
+
+.youtube-link {
+    text-decoration: none; /* Removes underline */
+    color: #007bff; /* Initial color */
+    transition: color 0.3s; /* Smooth transition */
+}
+
+.youtube-link:hover {
+    color: #0056b3; /* Color on hover */
+}
+
+.hob-img{
+    height: 396.86px;
+}
